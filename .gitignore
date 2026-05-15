@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Data (太大且可重建)
+data/
+*.pkl
+
+# 回測輸出
+equity_curve.csv
+equity_curve_v2.csv
+equity_curve_v3.csv
+trades.csv
+trades_v2.csv
+trades_v3.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
