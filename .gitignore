@@ -36,6 +36,10 @@ us_trades_v5.csv
 tw_equity_v5.csv
 tw_trades_v5.csv
 
+# Scanner outputs
+scanner_output_*.md
+scanner_output_*.csv
+
 # OS
 .DS_Store
 Thumbs.db
