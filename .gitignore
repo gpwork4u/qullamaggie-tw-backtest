@@ -11,6 +11,7 @@ env/
 
 # Data (太大且可重建)
 data/
+data_us/
 *.pkl
 
 # 回測輸出
@@ -20,6 +21,12 @@ equity_curve_v3.csv
 trades.csv
 trades_v2.csv
 trades_v3.csv
+us_equity_v1.csv
+us_equity_v2.csv
+us_equity_v3.csv
+us_trades_v1.csv
+us_trades_v2.csv
+us_trades_v3.csv
 
 # OS
 .DS_Store
