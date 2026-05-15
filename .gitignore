@@ -24,9 +24,13 @@ trades_v3.csv
 us_equity_v1.csv
 us_equity_v2.csv
 us_equity_v3.csv
+us_equity_v4.csv
 us_trades_v1.csv
 us_trades_v2.csv
 us_trades_v3.csv
+us_trades_v4.csv
+tw_equity_v4.csv
+tw_trades_v4.csv
 
 # OS
 .DS_Store
