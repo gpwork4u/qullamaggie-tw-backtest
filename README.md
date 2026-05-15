@@ -15,6 +15,35 @@
 
 **完整 V5 報告與 Walk-forward 結果見 [`REPORT_V5.md`](REPORT_V5.md)**。
 
+## 🛠️ 從回測到實戰：Daily Scanner
+
+```bash
+# 美股每日掃描（自動更新最近 30 天資料）
+python3 daily_scanner.py US
+
+# 台股、指定 50 萬 NT 帳戶
+python3 daily_scanner.py TW 500000
+
+# 歷史日期回放（驗證訊號品質）
+python3 daily_scanner.py US --no-refresh --date=2024-10-29
+```
+
+輸出 Markdown + CSV 報告，含：候選股 / 進場價 / 停損價 / 倉位大小 / R-distance / RS rank / VCP 標記 / 大盤狀態。
+
+### Scanner 歷史命中範例
+
+**2024-10-29 美股**（V5 訊號）：
+- **SOUN**：訊號日 $6.01 → 後續最高 $24.23（**+303%**）
+- **EAT**：訊號日 $97.01 → 後續最高 $137.19（**+41%**）
+
+**2023-05-19 台股**（AI 行情起點，V5 訊號 6 檔）：
+- 3231 緯創：**+204.5%**
+- 3583：**+163.1%**
+- 2376：**+120.5%**
+- 2421：**+115.8%**
+- 3617：+78.0%
+- 2247：+18.5%
+
 ## 🎯 最終 V4 結果（推薦版）
 
 | 指標 | TW V4 (no add-on) | **US V4** | US V4 (aggressive) | QQQ 持有 |
